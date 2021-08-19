@@ -1,87 +1,79 @@
-.links{
-    display: flex;
-    justify-content: space-around;
-    
-    width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.bdy{
+    background-color: #222;
 }
-.topnav {
-    
-       display: flex;
-       justify-content: flex-start;
-       align-items: center;
-      background-color: #023047;
-     overflow: hidden;
-   }
-   .topnav a {
+ .header{
+     border-bottom: 2px solid white;
+     position: relative;
+     height: 16.75vh;
+ }
+.headel{
+    font-size: xx-large;
+    font-family: 'Press Start 2P', cursive;
     display: flex;
     justify-content: center;
     align-items: center;
-     color: #f2f2f2;
-     text-align: center;
-     margin: 1rem;
-     padding: 12px;
-     text-decoration: none;
-     font-size: x-large;
-     border-radius: 50px;
-     transition: all 1s ease-in;
-   }
-   .topnav a:hover{
-       background-color:#01151f ;
-   }
-   .links a:hover ~ .dropdown-menu{
-       display: block;
-       margin-top: 4.5rem;
-   }
-
-   .links a ~ .dropdown-menu:hover{
-       margin-top: 4.5rem;
-       display: block;
-   }
-   .dropdown-menu a{
-    color: black;
-   }
-   .dropdown-item{
-       margin-right: 0px !important;
-       margin-left: 0px !important;
-   }
-
-     .card-color{
-      background-color:khaki;
-  }
-  .tile-title{
-      font-size: x-large;
-      color: royalblue;
-  }
-  .card-text{
-      font-size: large;
-      text-align: justify;
-  }
-  .btn{
-      border-radius: 1rem;
-      padding: .5rem;
-  }
-  .card-text{
-      font-size: large;
-      text-align: left;
-  }
-  .list-item{
-      border: none;
-      background-color: khaki;
-      padding: 1rem;
-      border-bottom: 2px solid lightseagreen;
-
-  }
-  .lastlist{
-      border-bottom: none;
-  }
-  .list-item:hover{
-      cursor: pointer;
-      font-size: x-large;
-      color:darkblue;}
-      .fixed-height{
-          max-height: 300px;
-          /* overflow:scroll; */
-          overflow-y: scroll;
-          overflow-x:hidden ;
-      }
+    color:rgb(250, 250, 250);
+    margin-top: 3rem;
+   
      
+}
+.words{
+    font-family: 'Press Start 2P', cursive;
+    background-color: rgb(255, 255, 255);
+    font-size: larger;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-align: center;
+    bottom: 0px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,50%); 
+
+}
+.inputt{
+    font-family: 'Press Start 2P', cursive;
+    font-size: larger;
+    width: 300px;
+    margin-top: 15rem;
+    margin-left: 1rem;
+    background-color: #222;
+    color: white;
+    border-color:white ;
+    padding: 0.5rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding: 1rem;
+}
+.button .btn1{
+    
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 6.5rem; 
+    background-color: aliceblue;
+    color: #222;
+    font-family: 'Press Start 2P', cursive;
+}
+.button .btn2{
+    
+    display: flex;
+    margin-top: 0.5rem;
+    margin-left: 3rem; 
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: aliceblue; 
+    color: #222;
+    font-family: 'Press Start 2P', cursive;
+}
+.message{
+    font-family: 'Press Start 2P', cursive;
+    color:rgb(250, 250, 250);
+    margin-top: 15rem;
+}
+.score{
+    font-family: 'Press Start 2P', cursive;
+    color:rgb(250, 250, 250);
+    margin-top: 4rem;
+}
